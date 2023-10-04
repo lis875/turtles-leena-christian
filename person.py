@@ -18,11 +18,11 @@ right(90)
 # Move down the line
 forward(25)
 
-# Draw right arm
+# Draw left arm
 right(115)
 forward(50)
 back(50)
-# Draw left arm
+# Draw right arm
 right(130)
 forward(50)
 back(50)
