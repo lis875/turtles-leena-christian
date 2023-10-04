@@ -10,7 +10,7 @@ forward(50)
 left(90)
 pendown()
 
-name2 = textinput("Second Name", "Enter the Second name here: ")
+name2 = textinput("Second Name", "Enter Second name here: ")
 
 write(name2)
 
