@@ -1,5 +1,7 @@
 from turtle import *
 
+## Stick Man
+
 right(90)
 
 # Draw a line
@@ -17,14 +19,26 @@ right(90)
 forward(25)
 
 # Draw right arm
-
+right(115)
+forward(50)
+back(50)
 # Draw left arm
-
+right(130)
+forward(50)
+back(50)
 # Move down to bottom of line
-
+right(115)
+forward(75)
 # Left Leg
-
+right(30)
+forward(50)
+back(50)
 # Right leg
-
+left(60)
+forward(50)
+back(50)
+right(20)
 # Wait for the user to close the window
+
+
 done()
