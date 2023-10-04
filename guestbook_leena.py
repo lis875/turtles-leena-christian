@@ -1,4 +1,5 @@
-from turtle import *
+
+"""from turtle import *
 
 name = textinput("Name","Enter your name here: ")
 
@@ -20,4 +21,20 @@ forward(50)
 left(90)
 pendown()
 
+done()
+"""
+
+from turtle import *
+
+while True:
+    name = textinput("Name", "Enter a name (or 'exit' to quit): ")
+    
+    if name.lower() == 'exit':
+        break
+
+    write(name, align="center", font=("Arial", 12, "normal"))
+
+    penup()
+    forward(45)
+    pendown()
 done()
